@@ -31,7 +31,6 @@ const Layout = ({ children, dark }) => {
   }, []);
   return (
     <Fragment>
-      {/* <PreLoader /> */}
       <ImageView />
       <VideoPopup />
       <div className="dizme_tm_all_wrap" data-magic-cursor="show">
