@@ -58,7 +58,7 @@ const MobileMenu = ({ logo }) => {
               </a>
             </li>
             <li className="download_cv">
-              <span>Hire Me</span>
+              <a href="#"><span>Hire Me</span></a>
             </li>
           </ul>
         </div>
