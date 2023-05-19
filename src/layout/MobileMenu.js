@@ -58,7 +58,7 @@ const MobileMenu = ({ logo }) => {
               </a>
             </li>
             <li className="download_cv">
-              <a href="#"><span>Hire Me</span></a>
+              <a href="https://www.upwork.com/freelancers/~016914610b6c056689"><span>Hire Me</span></a>
             </li>
           </ul>
         </div>

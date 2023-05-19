@@ -25,9 +25,9 @@
     }
   ],
   "social": [
-    { "name": "facebook", "icon": "icon-facebook-1", "url": "#" },
-    { "name": "twitter", "icon": "icon-twitter-1", "url": "#" },
-    { "name": "linkedin", "icon": "icon-linkedin-1", "url": "#" },
+    { "name": "github", "icon": "icon-github-circled-alt2", "url": "https://github.com/iamdeepak90" },
+    { "name": "upwork", "icon": "icon-upwork-1", "url": "https://www.upwork.com/freelancers/~016914610b6c056689" },
+    { "name": "linkedin", "icon": "icon-linkedin-1", "url": "test" },
     { "name": "behance", "icon": "icon-behance", "url": "#" }
   ],
   "contact": {
