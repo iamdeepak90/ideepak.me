@@ -31,7 +31,7 @@ const Header = ({ logo }) => {
                 <a href="#contact">Contact</a>
               </li>
               <li className="download_cv">
-                <span>Hire Me</span>
+                <a href="#"><span>Hire Me</span></a>
               </li>
             </ul>
           </div>
