@@ -7,7 +7,7 @@ const MobileMenu = ({ logo }) => {
         <div className="mobile_in">
           <div className="logo">
             <a href="#">
-              <img src={logo ? logo : "img/logo/logo.png"} alt="image" />
+              <img src="img/logo/logo.png" alt="image" />
             </a>
           </div>
           <div className="trigger">

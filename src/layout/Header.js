@@ -6,7 +6,7 @@ const Header = ({ logo }) => {
           <div className="logo">
             <a href="#">
               {logo && (
-                <img src={logo ? logo : "img/logo/logo.png"} alt="image" />
+                <img src="img/logo/ideepak.png" alt="image" />
               )}
             </a>
           </div>
