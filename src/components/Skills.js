@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { activeSkillProgress, fatchData } from "../utilits";
+import ImgNextGen from "../components/utility/ImgNextGen";
 
 const Skills = ({ dark }) => {
   const [data, setData] = useState({});
@@ -52,7 +53,11 @@ const Skills = ({ dark }) => {
               </div>
             </div>
             <div className="right">
-              <img src={`img/skills/skills.png`} alt="image" />
+            <ImgNextGen
+              srcWebp="img/skills.webp"
+              fallback="img/skills.jpg"
+              alt="Our Skills"
+            />
             </div>
           </div>
         </div>

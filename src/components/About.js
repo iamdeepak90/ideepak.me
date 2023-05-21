@@ -1,3 +1,5 @@
+import ImgNextGen from "./utility/ImgNextGen";
+
 const About = ({ dark }) => {
   return (
     <div className="dizme_tm_section" id="about">
@@ -6,7 +8,11 @@ const About = ({ dark }) => {
           <div className="wrapper">
             <div className="left">
               <div className="image">
-                <img src={`img/about/${dark ? 2 : 1}.png`} alt="image" />
+                <ImgNextGen
+                  srcWebp="img/about.webp"
+                  fallback="img/about.png"
+                  alt="About us"
+                />
                 <div className="numbers year">
                   <div className="wrapper">
                     <h3>

@@ -1,3 +1,5 @@
+import ImgNextGen from "../components/utility/ImgNextGen";
+
 const Header = ({ logo }) => {
   return (
     <div className="dizme_tm_header">
@@ -5,9 +7,11 @@ const Header = ({ logo }) => {
         <div className="inner">
           <div className="logo">
             <a href="#">
-              {logo && (
-                <img src="img/logo/ideepak.png" alt="image" />
-              )}
+            <ImgNextGen
+              srcWebp="img/ideepak.webp"
+              fallback="img/ideepak.png"
+              alt="iDeepak.me"
+            />
             </a>
           </div>
           <div className="menu">

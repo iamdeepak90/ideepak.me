@@ -1,6 +1,7 @@
 import parse from "html-react-parser";
 import { useEffect, useState } from "react";
 import { fatchData } from "../utilits";
+import ImgNextGen from "./utility/ImgNextGen";
 
 const Home = ({ dark }) => {
   const [data, setData] = useState({});
@@ -13,8 +14,7 @@ const Home = ({ dark }) => {
       <div className="dizme_tm_hero">
         <div
           className="background"
-          data-img-url={`img/slider/${dark ? 2 : 7}.jpg`}
-          // style={{ backgroundImage: `img/slider/${dark ? 2 : 1}.jpg` }}
+          data-img-url={`img/background.webp`}
         />
         <div className="container">
           <div className="content">
@@ -57,9 +57,10 @@ const Home = ({ dark }) => {
             </div>
             <div className="avatar">
               <div className="image">
-                <img
-                  src={data && data.img ? data.img : "/img/slider/avatar.png"}
-                  alt="image"
+                <ImgNextGen
+                  srcWebp="img/avatar.webp"
+                  fallback="img/avatar.png"
+                  alt="Our Skills"
                 />
               </div>
             </div>
