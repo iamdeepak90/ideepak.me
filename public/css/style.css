@@ -3157,7 +3157,7 @@ input[type="number"] {
     font-size: 20px;
   }
   .dizme_tm_down {
-    bottom: 20px;
+    bottom: 0px;
   }
   .dizme_tm_process ul {
     margin: 0px;
