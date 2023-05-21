@@ -53,10 +53,7 @@ const Portfolio = () => {
           <div className="dizme_tm_main_title" data-align="center">
             <span>Portfolio</span>
             <h3>My Amazing Works</h3>
-            <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
-            </p>
+            <p>Unlocking the Power of Digital Possibilities: Showcasing a Symphony of Innovative Web Solutions in My Portfolio.</p>
           </div>
           <div className="portfolio_filter">
             <ul>

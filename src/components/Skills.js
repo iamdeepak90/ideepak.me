@@ -21,12 +21,9 @@ const Skills = ({ dark }) => {
                 data-wow-duration="1s"
                 data-align="left"
               >
-                <span>Design is Life</span>
-                <h3>I Develop Skills Regularly to Keep Me Update</h3>
-                <p>
-                  Most common methods for designing websites that work well on
-                  desktop is responsive and adaptive design
-                </p>
+                <span>I'm expert in these</span>
+                <h3>Unleashing Web Wizardry, Powering Digital Innovation.</h3>
+                <p>I'm a Versatile full stack web developer skilled in Node.js, PHP, React, Next.js, Laravel, Cs Cart, and WordPress, crafting seamless experiences and driving digital innovation.</p>
               </div>
               <div
                 className="dodo_progress wow fadeInUp"
@@ -55,7 +52,7 @@ const Skills = ({ dark }) => {
               </div>
             </div>
             <div className="right">
-              <img src={`img/skills/${dark ? 2 : 1}.jpg`} alt="image" />
+              <img src={`img/skills/skills.png`} alt="image" />
             </div>
           </div>
         </div>

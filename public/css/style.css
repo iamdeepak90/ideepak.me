@@ -641,6 +641,7 @@ h6 {
 .dizme_tm_hero .social ul li a {
   text-decoration: none;
   color: #000;
+  font-size: 22px;
 }
 .dizme_tm_hero .image {
   position: relative;
@@ -800,8 +801,14 @@ h6 {
   margin: 0px 0px 70px 0px;
   width: 33.3333%;
   float: left;
-  padding-left: 70px;
+  padding: 0 25px;
   text-align: center;
+}
+.dizme_tm_process ul li:first-child{
+  padding-left: 0;
+}
+.dizme_tm_process ul li:last-child{
+  padding-right: 0;
 }
 .dizme_tm_process ul li .list_inner {
   width: 100%;
@@ -1420,8 +1427,8 @@ h6 {
   align-items: center;
 }
 .dizme_tm_skills .left {
-  width: 50%;
-  padding-right: 100px;
+  width: 55%;
+  padding-right: 45px;
 }
 .dodo_progress {
   width: 100%;
@@ -1527,8 +1534,8 @@ h6 {
 }
 
 .dizme_tm_skills .right {
-  width: 50%;
-  padding-left: 100px;
+  width: 45%;
+  padding-left: 45px;
 }
 .dizme_tm_skills .right img {
   max-height: 800px;
@@ -1604,7 +1611,7 @@ h6 {
 }
 .dizme_tm_services .service_list .title h3 {
   font-size: 30px;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 .dizme_tm_services .service_list .price {
   font-weight: 500;
@@ -2954,7 +2961,7 @@ input[type="number"] {
   }
   .dizme_tm_services .service_list .title h3 {
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
   .dizme_tm_services .service_list .price {
     font-size: 18px;
@@ -3371,7 +3378,7 @@ input[type="number"] {
     padding: 40px 20px;
   }
   .dizme_tm_services .service_list .title h3 {
-    font-size: 25px;
+    font-size: 5px;
   }
   .dizme_tm_services .service_list .price {
     font-size: 19px;
