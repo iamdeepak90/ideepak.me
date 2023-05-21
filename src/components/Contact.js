@@ -12,26 +12,12 @@ const Contact = () => {
           <div className="dizme_tm_main_title" data-align="center">
             <span>Contact Me</span>
             <h3>I Want To Hear From You</h3>
-            <p>
-              Please fill out the form on this section to contact with me. Or
-              call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
-            </p>
+            <p>Got questions or ready to start your digital journey? Reach out today and let's bring your vision to life!</p>
           </div>
           <div className="contact_inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               {data && data.contact && (
                 <ul>
-                  <li>
-                    <div className="list_inner">
-                      <div className="icon orangeBackground">
-                        <i className="icon-location orangeText" />
-                      </div>
-                      <div className="short">
-                        <h3>Address</h3>
-                        <span>{data.contact.address}</span>
-                      </div>
-                    </div>
-                  </li>
                   <li>
                     <div className="list_inner">
                       <div className="icon greenBackground">
@@ -45,6 +31,7 @@ const Contact = () => {
                       </div>
                     </div>
                   </li>
+                  <li><h3>&nbsp;</h3></li>
                   <li>
                     <div className="list_inner">
                       <div className="icon purpleBackground">
@@ -78,24 +65,14 @@ const Contact = () => {
                   <div className="input_list">
                     <ul>
                       <li>
-                        <input id="name" type="text" placeholder="Your Name" />
+                        <input id="name" type="text" placeholder="Your Name *" />
                       </li>
                       <li>
                         <input
                           id="email"
                           type="text"
-                          placeholder="Your Email"
+                          placeholder="Your Email *"
                         />
-                      </li>
-                      <li>
-                        <input
-                          id="phone"
-                          type="number"
-                          placeholder="Your Phone"
-                        />
-                      </li>
-                      <li>
-                        <input id="subject" type="text" placeholder="Subject" />
                       </li>
                     </ul>
                   </div>

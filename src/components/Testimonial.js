@@ -29,10 +29,6 @@ const Testimonial = () => {
         <div className="dizme_tm_main_title" data-align="center">
           <span>Testimonials</span>
           <h3>What My Clients Say</h3>
-          <p>
-            Most common methods for designing websites that work well on desktop
-            is responsive and adaptive design
-          </p>
         </div>
         <div className="list_wrapper">
           <div className="total">

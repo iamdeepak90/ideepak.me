@@ -397,7 +397,7 @@ h6 {
   justify-content: space-between;
 }
 .dizme_tm_header.animate {
-  background-color: #fff;
+  background-color: #fff9ef;
   padding: 20px 0px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -1794,7 +1794,7 @@ h6 {
   margin-bottom: 51px;
 }
 .dizme_tm_testimonials .text p {
-  font-size: 30px;
+  font-size: 22px;
   font-style: italic;
   line-height: 1.6;
 }
@@ -2063,8 +2063,8 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  padding-top: 185px;
-  margin-bottom: 160px;
+  padding-top: 85px;
+  margin-bottom: 80px;
   position: relative;
 }
 .dizme_tm_news .news_list {
@@ -2358,8 +2358,8 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  padding-top: 190px;
-  margin-bottom: 200px;
+  padding-top: 90px;
+  margin-bottom: 60px;
   position: relative;
 }
 .dizme_tm_contact .contact_inner {
@@ -2973,7 +2973,7 @@ input[type="number"] {
     max-width: 650px;
   }
   .dizme_tm_testimonials .text p {
-    font-size: 19px;
+    font-size: 16px;
   }
   .dizme_tm_testimonials .detail h3 {
     font-size: 22px;
@@ -3278,7 +3278,7 @@ input[type="number"] {
     height: 50px;
   }
   .dizme_tm_testimonials .text p {
-    font-size: 20px;
+    font-size: 17px;
   }
   .dizme_tm_testimonials .detail h3 {
     font-size: 21px;
@@ -3478,7 +3478,7 @@ input[type="number"] {
     margin-top: 50px;
   }
   .dizme_tm_news {
-    padding-top: 120px;
+    padding-top: 80px;
     margin-bottom: 100px;
   }
   .dizme_tm_contact {
@@ -3486,7 +3486,7 @@ input[type="number"] {
   }
   .dizme_tm_contact .contact_inner {
     margin-top: 67px;
-    margin-bottom: 120px;
+    margin-bottom: 60px;
   }
   .dizme_tm_contact {
     margin-bottom: 120px;

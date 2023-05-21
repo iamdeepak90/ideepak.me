@@ -1,20 +1,32 @@
 [
   {
-    "name": "Mike Anderson",
-    "img": "img/testimonials/4.jpg",
-    "profession": "Vivaco Studio",
-    "details": "I rarely like to write reviews, but the Marketify team truly deserve a standing ovation for their customer support, customisation and most importantly, friendliness and professionalism. Many thanks once again for everything and hope that I get to deal with you again in the near future."
+    "name": "Massimo Ceoldo",
+    "img": "img/testimonials/user.png",
+    "profession": "Italy",
+    "details": "Deepak has shown great and strong problem solving attitude since the very first moment he had offered his bid. He has not only successfully and quickly come to the right solution,but he has also advised me about web site improvements. I will certainly collaborate with him again in next future. I highly recommend him."
   },
   {
-    "name": "Keita Smith",
-    "img": "img/testimonials/3.jpg",
-    "profession": "ABC Group",
-    "details": "Really the Code Quality, Customer Support, and design are awesome and its good support they are giving. They give an instant solution to our needs. Really awesome. I will strongly recommend to my friends. Simply amazing team and amazing theme! Thank you from United States of America!"
+    "name": "Eduardo Rojero",
+    "img": "img/testimonials/user.png",
+    "profession": "Mexico",
+    "details": "Yet another succesfull experience with Deepak. He's quite effective in quickly understanding the project's scope and writing and implementing the requested code. He's number one on my picking list."
   },
   {
-    "name": "Alan Walker",
-    "img": "img/testimonials/6.jpg",
-    "profession": "Web Designer",
-    "details": "Loved the template design, documentation, customizability and the customer support from Marketify team! I am a noob in programming with very little knowledge about coding but the Marketify team helped me to launch my resume website successfully. Much recommended!"
+    "name": "Chris F",
+    "img": "img/testimonials/user.png",
+    "profession": "Canada",
+    "details": "Deepak was super friendly, accommodating, and really easy to work with. His knowledge of Wordpress is impressive and had our site back up and running with some needed add-ons in a very reasonable amount of time. I would definitely recommend his services and will request him again if the need arises."
+  },
+  {
+    "name": "Liav Hurvitz",
+    "img": "img/testimonials/user.png",
+    "profession": "Israel",
+    "details": "Very good work, He fixes my WordPress website bugs, did it fast and professionally, took care of all issues. and shows a lot of knowledge, defiantly hire again"
+  },
+  {
+    "name": "Aziz Khan",
+    "img": "img/testimonials/user.png",
+    "profession": "Japan",
+    "details": "Deepak takes customer service to a whole new level. I come from the AI world and I know customized solutions can be very challenging and can take enormous effort. Deepak will find the solution regardless and will work with you as a team member towards a common goal. He worked very hard on my site and we achieved perfection. For any development and backend customization work, hire him!"
   }
 ]
