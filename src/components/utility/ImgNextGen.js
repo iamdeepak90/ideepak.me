@@ -9,8 +9,8 @@ const ImgNextGen = ({
 }) => {
   return (
     <picture>
-       <source srcset={srcWebp} type="image/webp" />
-       <source srcset={fallback} type="image/jpeg" />
+       <source srcSet={srcWebp} type="image/webp" />
+       <source srcSet={fallback} type="image/jpeg" />
        <img src={fallback} alt={alt} {...props} />
     </picture>
   );
