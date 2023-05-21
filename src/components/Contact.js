@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
             <span>Contact Me</span>
-            <h3>I Want To Hear From You</h3>
+            <h3>I Want To Hear From You!</h3>
             <p>Got questions or ready to start your digital journey? Reach out today and let's bring your vision to life!</p>
           </div>
           <div className="contact_inner">
