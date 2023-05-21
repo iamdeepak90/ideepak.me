@@ -2,6 +2,7 @@ import parse from "html-react-parser";
 import { useEffect, useState } from "react";
 import { fatchData } from "../utilits";
 import ServicePopup from "./popup/ServicePopup";
+import ImgNextGen from "./utility/ImgNextGen";
 
 const Service = ({ dark }) => {
   const [data, setData] = useState([]);
@@ -93,10 +94,18 @@ const Service = ({ dark }) => {
           </div>
         </div>
         <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
-          <img src="img/brushes/service/5.png" alt="image" />
+          <ImgNextGen
+            srcWebp="img/brushes/service-5.webp"
+            fallback="img/brushes/service-5.png"
+            alt="Our Services"
+          />
         </div>
         <div className="brush_2 wow zoomIn" data-wow-duration="1s">
-          <img src="img/brushes/service/6.png" alt="image" />
+          <ImgNextGen
+            srcWebp="img/brushes/service-6.webp"
+            fallback="img/brushes/service-6.png"
+            alt="Our Services"
+          />
         </div>
       </div>
     </div>
