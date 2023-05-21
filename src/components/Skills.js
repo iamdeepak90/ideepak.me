@@ -21,9 +21,9 @@ const Skills = ({ dark }) => {
                 data-wow-duration="1s"
                 data-align="left"
               >
-                <span>I'm expert in these</span>
+                <span>I am expert in these</span>
                 <h3>Unleashing Web Wizardry, Powering Digital Innovation.</h3>
-                <p>I'm a Versatile full stack web developer skilled in Node.js, PHP, React, Next.js, Laravel, Cs Cart, and WordPress, crafting seamless experiences and driving digital innovation.</p>
+                <p>I am a Versatile full stack web developer skilled in Node.js, PHP, React, Next.js, Laravel, Cs Cart, and WordPress, crafting seamless experiences and driving digital innovation.</p>
               </div>
               <div
                 className="dodo_progress wow fadeInUp"
