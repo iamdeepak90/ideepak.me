@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="dizme_tm_main_title" data-align="center">
             <span>Contact Me</span>
             <h3>I Want To Hear From You!</h3>
-            <p>Got questions or ready to start your digital journey? Reach out today and let's bring your vision to life!</p>
+            <p>Got questions or ready to start your digital journey? Reach out today and let\'s bring your vision to life!</p>
           </div>
           <div className="contact_inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
