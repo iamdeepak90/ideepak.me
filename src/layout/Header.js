@@ -6,7 +6,7 @@ const Header = ({ logo }) => {
       <div className="container">
         <div className="inner">
           <div className="logo">
-            <a href="#">
+            <a href="https://www.ideepak.me/">
             <ImgNextGen
               srcWebp="img/ideepak.webp"
               fallback="img/ideepak.png"

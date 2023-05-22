@@ -6,7 +6,7 @@ const MobileMenu = ({ logo }) => {
       <div className="mobile_menu_inner">
         <div className="mobile_in">
           <div className="logo">
-            <a href="#">
+            <a href="https://www.ideepak.me/">
               <img src="img/ideepak.png" alt="image" />
             </a>
           </div>

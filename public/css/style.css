@@ -1538,7 +1538,7 @@ h6 {
   padding-left: 45px;
 }
 .dizme_tm_skills .right img {
-  max-height: 800px;
+  max-height: 600px;
 }
 
 /*---------------------------------------------------*/
@@ -3245,8 +3245,7 @@ input[type="number"] {
     width: 100%;
   }
   .dizme_tm_skills .right img {
-    max-width: 300px;
-    max-height: 300px;
+    max-height: 600px;
   }
   .dizme_tm_main_title {
     max-width: 100% !important;
@@ -3378,13 +3377,13 @@ input[type="number"] {
     padding: 40px 20px;
   }
   .dizme_tm_services .service_list .title h3 {
-    font-size: 5px;
+    font-size: 25px;
   }
   .dizme_tm_services .service_list .price {
     font-size: 19px;
   }
   .dizme_tm_services .service_list .price span {
-    font-size: 21px;
+    font-size: 17px;
   }
   .dizme_tm_partners ul li {
     width: 50%;
@@ -3462,8 +3461,8 @@ input[type="number"] {
     padding-bottom: 46px;
   }
   .dizme_tm_services {
-    padding-top: 120px;
-    margin-bottom: 98px;
+    padding-top: 80px;
+    margin-bottom: 78px;
   }
   .dizme_tm_testimonials .list_wrapper {
     margin-top: 65px;
