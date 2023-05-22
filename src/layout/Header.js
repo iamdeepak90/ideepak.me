@@ -17,7 +17,7 @@ const Header = ({ logo }) => {
           <div className="menu">
             <ul className="anchor_nav">
               <li className="current">
-                <a href="#home">Home</a>
+                <a href="https://www.ideepak.me/#home">Home</a>
               </li>
               <li>
                 <a href="https://www.ideepak.me/#about">About</a>

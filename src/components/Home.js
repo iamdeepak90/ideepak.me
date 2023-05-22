@@ -36,8 +36,8 @@ const Home = ({ dark }) => {
               </div>
               <div className="button">
                 <div className="dizme_tm_button">
-                  <a className="anchor" href="#about">
-                    <span>About Me</span>
+                  <a className="anchor" href="#contact">
+                    <span>Contact Me</span>
                   </a>
                 </div>
                 <div className="social">
