@@ -54,7 +54,7 @@ const Service = ({ dark }) => {
                         key={i}
                         onClick={() => "javascript:void(0)"}
                       >
-                        <div className="list_inner tilt-effect">
+                        <div className="list_inner tilt-effect" /* style={{ background: "linear-gradient(rgb(255 255 255 / 67%), rgb(255 255 255)), url(https://www.ideepak.me/img/service/react.png) no-repeat right top #fff" }} */>
                           <span className="icon">
                             <img
                               src={data.icon}
