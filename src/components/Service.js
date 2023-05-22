@@ -52,24 +52,14 @@ const Service = ({ dark }) => {
                         }`}
                         data-wow-duration="1s"
                         key={i}
-                        onClick={() => onClick(i)}
+                        onClick={() => "javascript:void(0)"}
                       >
                         <div className="list_inner tilt-effect">
                           <span className="icon">
-                            {parse(data.icon.svg)}
-                            {dark ? (
-                              <img
-                                className="back"
-                                src={data.icon.iconBgDark}
-                                alt="image"
-                              />
-                            ) : (
-                              <img
-                                className="back"
-                                src={data.icon.iconBg}
-                                alt="image"
-                              />
-                            )}
+                            <img
+                              src={data.icon}
+                              alt="image"
+                            />
                           </span>
                           <div className="title">
                             <h3>{data.title}</h3>
