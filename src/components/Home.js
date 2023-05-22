@@ -26,7 +26,7 @@ const Home = ({ dark }) => {
                 <h3>DEEPAK MISHRA</h3>
               </div>
               <div className="job">
-                <p>a <span className="greenText">Full Stack Developer</span> from <span className="purpleText">INDIA</span>
+                <p><span className="greenText">Full Stack Developer</span> from <span className="purpleText">INDIA</span>
                 </p>
               </div>
               <div className="text">
