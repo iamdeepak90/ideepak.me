@@ -54,7 +54,7 @@ const Service = ({ dark }) => {
                         key={i}
                         onClick={() => "javascript:void(0)"}
                       >
-                        <div className="list_inner tilt-effect" style={{ background: `linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.9)), url(${data.icon}) no-repeat 120% 175% / 50% rgb(255, 255, 255)` }}>
+                        <div className="list_inner tilt-effect" style={{ background: `linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.9)), url(${data.icon}) no-repeat 125% 125% / 50% rgb(255, 255, 255)` }}>
                           <span className="icon">
                             <img
                               src={data.icon}
