@@ -5,6 +5,34 @@ const Contact = () => {
   useEffect(async () => {
     setData(await fatchData("/static/info.json"));
   }, []);
+
+  const [formState, setFormState] = useState({});
+
+  const changeHandler = (event) => {
+    setFormState({ ...formState, [event.target.name]: event.target.value });
+  }
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+    const mailConfig = {
+      Host : "smtp.zoho.in",
+      Username : "hello@ideepak.me",
+      Password : "HelloI@$44",
+      To : formState.email,
+      From : "hello@ideepak.me",
+      Subject : `${formState.name} submit a Contact Form on iDeepak.me`,
+      Body : formState.message
+    };
+
+    /* if(window.Email){
+      window.Email.send(mailConfig).then(()=> alert(formState.email));
+    } */
+
+    Email.send(mailConfig).then(
+      message => alert(message)
+    );
+  }
+
   return (
     <div className="dizme_tm_section" id="contact">
       <div className="dizme_tm_contact">
@@ -49,11 +77,10 @@ const Contact = () => {
             <div className="right wow fadeInRight" data-wow-duration="1s">
               <div className="fields">
                 <form
-                  action="/"
-                  method="post"
                   className="contact_form"
                   id="contact_form"
                   autoComplete="off"
+                  onSubmit={submitHandler}
                 >
                   <div
                     className="returnmessage"
@@ -65,29 +92,28 @@ const Contact = () => {
                   <div className="input_list">
                     <ul>
                       <li>
-                        <input id="name" type="text" placeholder="Your Name *" />
+                        <input name="name" type="text" value={formState.name || ''} onChange={changeHandler} placeholder="Your Name *" />
                       </li>
                       <li>
                         <input
-                          id="email"
+                          name="email"
                           type="text"
                           placeholder="Your Email *"
+                          value={formState.email || ''}
+                          onChange={changeHandler}
                         />
                       </li>
                     </ul>
                   </div>
                   <div className="message_area">
                     <textarea
-                      id="message"
+                      name="message"
                       placeholder="Write your message here"
-                      defaultValue={""}
+                      value={formState.message || ''}
+                      onChange={changeHandler}
                     />
                   </div>
-                  <div className="dizme_tm_button">
-                    <a id="send_message" href="#">
-                      <span>Submit Now</span>
-                    </a>
-                  </div>
+                  <button type="submit" className="contactBtn">Submit Now</button>
                 </form>
               </div>
             </div>
