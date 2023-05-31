@@ -18,7 +18,7 @@ const Index = () => {
   return (
     <Layout>
       <Head>
-        <title>Full Stack Web Developer | Deepak Mishra</title>
+        <title>Full Stack Web Developer from India | Deepak Mishra</title>
         <meta name="description" content="Expertly crafted websites by a full stack web developer. Explore my portfolio and experience seamless functionality with cutting-edge technologies. Elevate your online presence today!" />
         <meta name="robots" content="noindex" />
       </Head>
