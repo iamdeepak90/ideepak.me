@@ -8,7 +8,7 @@ const Header = ({ logo }) => {
           <div className="logo">
             <a href="https://www.ideepak.me/">
             <ImgNextGen
-              srcWebp="img/ideepak.webp"
+              srcWebp=""
               fallback="img/ideepak.png"
               alt="iDeepak.me"
             />
